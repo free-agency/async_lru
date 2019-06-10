@@ -21,7 +21,7 @@ def read(*parts):
 
 
 setup(
-    name="async-lru",
+    name='ql_async_lru',
     version=get_version(),
     author="Victor Kovtun",
     author_email="hellysmile@gmail.com",
