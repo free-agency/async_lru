@@ -168,7 +168,7 @@ def alru_cache(
                 # task instance from add_done_callback is used as pop default
                 task.add_done_callback(
                     partial(
-                        _loop.call_later,
+                        loop.call_later,
                         expires,
                         partial(wrapped._cache.pop, key)
                     )
